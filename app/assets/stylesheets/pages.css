@@ -1,0 +1,81 @@
+.new-task-header {
+  color: #7D7C7C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 8px #FFB000;
+}
+
+
+.container {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+/* Style the button */
+button {
+  margin-top: 20px; /* Add some spacing */
+  background-color: #7D7C7C;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 10px;
+}
+
+/* Style the button text (icon and label) */
+button a {
+  text-decoration: none;
+  color: white; /* Font color */
+  font-size: 10px;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-right: 15px;
+}
+
+td {
+  padding-bottom: 15px;
+}
+
+.task-title {
+  font-size: 35px;
+  text-align: center;
+}
+
+/* Style the task details */
+p {
+  font-size: 25px; /* Adjust font size as needed */
+  text-align: center;
+  background-color: #2f2d34;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 8px;
+}
+
+/* Align the pencil icon next to the task title */
+i.fa-pencil {
+  margin-left: 10px; /* Adjust the margin as needed to position the icon */
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+/* Style the "Back to list" button */
+a.button-link {
+  background-color: #007BFF; /* Background color */
+  color: white; /* Font color */
+  padding: 10px 20px; /* Add padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

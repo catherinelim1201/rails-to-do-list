@@ -1,0 +1,11 @@
+<div class="new-task-header">
+  <h1>New Task</h1>
+</div>
+
+<div class="container">
+  <%= render "form", task: @task %>
+
+  <%= link_to tasks_path(@task) do %>
+    <i class="fa-solid fa-rotate-left"> Back to list</i>
+  <% end %>
+</div>

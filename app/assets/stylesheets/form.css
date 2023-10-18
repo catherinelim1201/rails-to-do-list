@@ -1,0 +1,43 @@
+/* Center the form container */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; /* Adjust the height as needed */
+}
+
+/* Style the form fields */
+.title-input,
+.details-input {
+  width: 100%; /* Make the input fields stretch to the full width */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid rgb(127, 127, 127);
+}
+
+.details-input {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #7D7C7C;
+  border-radius: 8px;
+  /* box-shadow: 3px 3px 18px #F1EFEF; */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+input[type="submit"]:hover {
+box-shadow: 3px 3px 18px #F1EFEF;
+}
+
+/* Style the labels */
+label {
+  text-align: left; /* Labels aligned to the left */
+}
